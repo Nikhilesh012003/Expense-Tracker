@@ -1,0 +1,31 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing FRONTEND dependencies...
+      - npm install
+
+      - echo Installing BACKEND dependencies...
+      - cd BackEnd
+      - npm install
+      - cd ..
+
+  build:
+    commands:
+      - echo Building FRONTEND...
+      - npm run build   # This creates dist/
+
+      # If backend serves frontend
+      - echo Copying FRONTEND build to BACKEND public folder...
+      - mkdir -p BackEnd/public
+      - cp -r dist/* BackEnd/public/
+
+  post_build:
+    commands:
+      - echo Build completed successfully.
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: BackEnd
