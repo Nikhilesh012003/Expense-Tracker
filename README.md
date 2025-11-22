@@ -95,8 +95,6 @@ npm run build
 
 ---
 
-## 🧪 Sample Features You Can Showcase to Recruiters
-
 ### 💼 **Practical Use Case**
 
 A real-world app used to manage personal finances.
