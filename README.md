@@ -1,16 +1,138 @@
-<<<<<<< HEAD
-# React + Vite
+💰 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, clean, and intuitive **Expense Tracking Web Application** that helps users record, manage, and visualize their daily expenses.
+Designed to be beginner-friendly in code, recruiter-friendly in readability, and user-friendly in UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+### ✅ Add, Edit & Delete Expenses
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Expense-Tracker
->>>>>>> 5355c25610e9f6266453cb96259cc94cd364b7d8
+Track all your spending with an easy-to-use interface.
+
+### 📊 Expense Categories
+
+Organize expenses under categories (Food, Travel, Shopping, Bills, etc.).
+
+### 📅 Date-wise Tracking
+
+View your expenses based on dates, helping you analyze spending habits.
+
+### 📈 Visual Reports (Optional if included)
+
+Display spending distribution using charts for quick insights (Pie/Bar charts).
+
+### 🧩 Fully Responsive
+
+Works smoothly on mobile, tablet, and desktop.
+
+---
+
+## 🛠️ Tech Stack
+
+### **Frontend**
+
+* React.js
+* Context API / Redux (if used)
+* CSS / Tailwind / Bootstrap (your choice)
+* LocalStorage for saving expenses (if no backend)
+
+### **Backend** *(If included in your repo)*
+
+* Node.js
+* Express.js
+* MongoDB (optional)
+
+---
+
+## 📂 Project Structure
+
+```
+Expense-Tracker/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles/
+│
+├── public/
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/Nikhilesh012003/Expense-Tracker.git
+cd Expense-Tracker
+```
+
+### 2️⃣ Install dependencies
+
+```
+npm install
+```
+
+### 3️⃣ Start the development server
+
+```
+npm run dev
+```
+
+### 4️⃣ Build for production
+
+```
+npm run build
+```
+
+---
+
+## 🧪 Sample Features You Can Showcase to Recruiters
+
+### 💼 **Practical Use Case**
+
+A real-world app used to manage personal finances.
+
+### 📐 **Clean & Modular Code**
+
+Demonstrates your ability to structure frontend projects professionally.
+
+### 🔄 **State Management**
+
+Shows your understanding of Context API or Redux.
+
+### 💾 **Persistent Storage**
+
+LocalStorage or backend API integration highlights your knowledge of data handling.
+
+### 🎨 **UI/UX Thinking**
+
+Minimalistic and user-friendly design, important for frontend roles.
+
+Home Page
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5b6d5885-73cb-4051-8f70-4b6ab9debedb" />
+
+🛠️ Future Improvements
+
+* Add Authentication (Login/Signup)
+* Add Dark Mode
+* Add Monthly Budget Setting
+* Export expenses to PDF/CSV
+* Cloud Sync (MongoDB + Express backend)
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+Feel free to fork the repo and submit a pull request.
+
+📜 License
+
+This project is licensed under the **MIT License**.
