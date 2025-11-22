@@ -19,7 +19,7 @@ Organize expenses under categories (Food, Travel, Shopping, Bills, etc.).
 
 View your expenses based on dates, helping you analyze spending habits.
 
-### 📈 Visual Reports (Optional if included)
+### 📈 Visual Reports 
 
 Display spending distribution using charts for quick insights (Pie/Bar charts).
 
@@ -38,11 +38,11 @@ Works smoothly on mobile, tablet, and desktop.
 * CSS / Tailwind / Bootstrap (your choice)
 * LocalStorage for saving expenses (if no backend)
 
-### **Backend** *(If included in your repo)*
+### **Backend** 
 
 * Node.js
 * Express.js
-* MongoDB (optional)
+* MongoDB 
 
 ---
 
@@ -65,8 +65,6 @@ Expense-Tracker/
 ```
 
 ---
-
-## 🚀 Getting Started
 
 ### 1️⃣ Clone the repository
 
